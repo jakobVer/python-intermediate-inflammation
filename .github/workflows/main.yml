@@ -32,3 +32,4 @@ jobs:
     - name: Test with PyTest
       run: |
         python3 -m pytest --cov=catchment.models tests/test_models.py
+    
