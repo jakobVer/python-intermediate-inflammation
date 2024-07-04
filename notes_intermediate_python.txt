@@ -19,3 +19,6 @@
 - python -m pip install pytest-cov
 - python -m pytest --cov=inflammation.models tests/test_models.py  (check coverage)
 - python -m pytest --cov=inflammation.models --cov-report term-missing tests/test_models.py (details to which lines were not tested)
+
+### CI/CD
+- mkdir -p .github/workflows
