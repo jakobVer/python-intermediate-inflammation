@@ -2,6 +2,7 @@
 
 import numpy as np
 import numpy.testing as npt
+from pathlib import Path
 
 
 def test_daily_mean_zeros():
@@ -28,4 +29,3 @@ def test_daily_mean_integers():
 
     # Need to use Numpy testing functions to compare arrays
     npt.assert_array_equal(daily_mean(test_input), test_result)
-
